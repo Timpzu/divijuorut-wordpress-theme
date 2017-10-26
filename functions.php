@@ -28,7 +28,7 @@
   function divijuorutSetup() {
     // Navigation
     register_nav_menus(array(
-      'primary' => __('Päävalikko'),
+      'primary' => __('Primary'),
     ));
     // News header image
     add_theme_support('post-thumbnails');
@@ -37,5 +37,8 @@
   }
   add_action('after_setup_theme', 'divijuorutSetup');
 
-  // Sticky navigation
+  // Theme path
+  if (!defined(THEME_IMG_PATH)) {
+    define('THEME_IMG_PATH', get_stylesheet_directory_uri() . '/img');
+  };
 ?>

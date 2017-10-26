@@ -1,6 +1,6 @@
 <?php get_header(); ?>
   <main>
-    <section class="current-article">
+    <section id="current-article">
       <?php
       if (have_posts()) :
         while (have_posts()) : the_post(); ?>
