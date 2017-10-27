@@ -14,6 +14,7 @@
     <div id="header-container">
       <div id="main-header">
         <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
+        <button id="nav-button"><i class="material-icons">menu</i></button>
       </div>
       <nav id="main_nav">
         <?php

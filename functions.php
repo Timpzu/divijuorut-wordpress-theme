@@ -32,8 +32,8 @@
     ));
     // News header image
     add_theme_support('post-thumbnails');
-    add_image_size('frontpage-thumb', 640, 360, array('center','center'));
-    add_image_size('article-thumb', 640, 360, array('center','center'));
+    add_image_size('frontpage-thumb', 768, 432, array('center','center'));
+    add_image_size('article-thumb', 768, 432, array('center','center'));
   }
   add_action('after_setup_theme', 'divijuorutSetup');
 
