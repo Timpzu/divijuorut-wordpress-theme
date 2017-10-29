@@ -163,7 +163,7 @@ main {
 .post {
   box-sizing: content-box;
   margin-top: 16px;
-  padding: 22px 16px 44px 16px;
+  padding: 24px 16px 44px 16px;
   border-radius: 2px;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -174,12 +174,19 @@ main {
   color: #000;
   margin-bottom: 0px;
 }
+.copy-text {
+  border-bottom: 1px solid #eee;
+}
 .copy-text p {
   line-height: 1.5em;
 }
+.copy-text #post-author {
+  font-weight: 700;
+  margin-bottom: 32px;
+}
 .post-info {
   margin-top: 12px;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
   font-size: 0.90em;
   color: #6D748F;
 }
@@ -189,6 +196,70 @@ main {
 }
 .no-article-thumb .post-info {
   margin-bottom: 38px;
+}
+.comments-area {
+  padding-top: 24px;
+}
+.comment-list,
+.comment-list .children {
+  list-style: none;
+  padding-left: 24px;
+}
+.comment-body {
+  position: relative;
+  margin-top: 28px;
+}
+.comment-body .comment-author,
+.comment-body .comment-meta {
+  margin-left: 72px;
+  padding-top: 4px;
+}
+.comment-body .comment-meta a:link,
+.comment-body .comment-meta a:visited {
+  color: #999;
+  font-size: 0.90em;
+  text-decoration: none;
+}
+.comment-body .comment-author .avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.comment-body p {
+  margin-top: 24px;
+}
+.comment-body .reply .comment-reply-link:link,
+.comment-body .reply .comment-reply-link:visited {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+.comment-respond {
+  margin-top: 48px;
+}
+.comment-respond .comment-form-comment #comment {
+  max-width: 100%;
+  min-width: 100%;
+}
+.comment-respond .comment-form-author input,
+.comment-respond .comment-form-email input {
+  display: block;
+  height: 1.75em;
+}
+.comment-respond .comment-form-url {
+  display: none;
+}
+.comment-respond .form-submit input[type="submit"] {
+  padding: 8px;
+  font-size: 0.90em;
+  font-weight: 700;
+  color: #fff;
+  background-color: #292F33;
+}
+.comment-respond .logged-in-as a:link,
+.comment-respond .logged-in-as a:visited {
+  color: #000;
+  font-size: 0.90em;
 }
 #wip .post {
   background: none;

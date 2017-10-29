@@ -12,7 +12,11 @@
               </a>
             </p>
             <?php the_post_thumbnail('article-thumb'); ?>
-            <div class="copy-text"><?php the_content() ?></div>
+            <div class="copy-text">
+              <?php the_content() ?>
+              <p id="post-author"><?php the_author(); ?></p>
+            </div>
+            <?php comments_template(); ?>
           </article>
         <?php endwhile;
         else :
