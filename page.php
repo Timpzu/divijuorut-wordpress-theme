@@ -13,6 +13,6 @@
           echo "<p>No content found!</p>";
       endif;
       ?>
-      <?php get_footer(); ?>
     </section>
   </main>
+<?php get_footer(); ?>
