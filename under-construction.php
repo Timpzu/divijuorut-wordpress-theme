@@ -7,6 +7,6 @@
         <h1>Täällä ei ole vielä mitään nähtävää...</h1>
         <p class="copy-text">Hiljaa hyvää tulee sano mummo lumessa.</p>
       </article>
-      <?php get_footer(); ?>
     </section>
   </main>
+<?php get_footer(); ?>
